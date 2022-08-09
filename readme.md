@@ -47,7 +47,7 @@ wget https://download1321.mediafire.com/74f5rchjpulg/kv9n52gox1uymtw/testplastic
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/testplastic.jpg plastic.jpg
 
 ```
-After using the scp command to open the image on my own computer, we can see that it has been identified:
+After using the scp command to open the image in a terminal outside of the nano, we can see that it has been identified:
 
 
 
