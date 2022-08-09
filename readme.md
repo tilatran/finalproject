@@ -1,4 +1,4 @@
-# Project Name
+# Ocean Garbage or Sea Creature Image Classification 
 
  This model classifies different types of trash as well as sea animals in order to help identify them in the water, where it may be harder to do so. This way, people can potentially avoid trash if they're trying to fish, avoid sea animals when trying to pick up trash, and be aware of what may be floating in the ocean. 
 
