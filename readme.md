@@ -31,10 +31,13 @@ cd jetson-inference/python/training/classification
 python3 train.py --model-dir=models/final_project data/final_project
 
 ```
-5. Export the model with onnx and use ctrl + D to exit the docker
+5. Export the model with onnx and use ctrl + D to exit the docker and set the variables
 ```
 python3 onnx_export.py --model-dir=models/final_project
 #Ctrl + D
+cd jetson-inference/python/training/classification
+NET=models/final_project
+DATASET=data/final_project
 ```
 6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here: 
 ![alt text](https://www.greenbiz.com/sites/default/files/styles/og_image_1200x630/public/images/articles/featured/plasticbagoceandamseasstock.png?itok=lKtpNdhW)
