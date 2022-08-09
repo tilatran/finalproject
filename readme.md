@@ -36,10 +36,11 @@ python3 train.py --model-dir=models/final_project data/final_project
 python3 onnx_export.py --model-dir=models/final_project
 #Ctrl + D
 ```
-6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here:
+6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here: 
+![alt text](https://www.greenbiz.com/sites/default/files/styles/og_image_1200x630/public/images/articles/featured/plasticbagoceandamseasstock.png?itok=lKtpNdhW)
 ```
 cd jetson-inference/python/training/classification/data/final_project/test
-wget
+wget https://download1521.mediafire.com/3ktbqshdsmyg/g3ggiz55vksdxqz/plasticbagoceandamseasstock.png
 unzip latest.zip
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/testplastic.jpg plastic.jpg
 
