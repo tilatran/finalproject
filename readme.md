@@ -1,6 +1,6 @@
 # Ocean Garbage or Sea Creature Image Classification 
 
- This model classifies different types of trash as well as sea animals in order to help identify them in the water, where it may be harder to do so. This way, people can potentially avoid trash if they're trying to fish, avoid sea animals when trying to pick up trash, and be aware of what may be floating in the ocean. 
+ This model classifies different types of trash as well as sea animals in order to help identify them in the water, where it may be harder to do so. This way, people can potentially avoid trash if they're trying to fish, avoid sea animals when trying to pick up trash, spot different types of trash over large spaces, and be aware of what may be floating in the ocean. 
 
 ![classified cardboard](https://download1518.mediafire.com/llx0aqxswq8g/u5wf7ik4jx8ic0j/cardboard.png)
 
