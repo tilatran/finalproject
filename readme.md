@@ -43,7 +43,7 @@ DATASET=data/finalproject
 ![alt text](https://www.oceancity.com/wp-content/uploads/2021/01/Atlantic-Sea-Nettle-by-William-Warby-3.jpg)
 ```
 cd jetson-inference/python/training/classification/data/final_project/test
-wget https://download846.mediafire.com/ykaxgzz8sd6g/geei1odgy6tusrh/jellyfish.jpg
+wget https://download944.mediafire.com/ren5v0hsab3g/mhfxicawlprt8k5/jellyfish.jpg
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/jellyfish.jpg jellyfish.jpg
 
 ```
