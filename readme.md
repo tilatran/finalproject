@@ -6,7 +6,7 @@
 
 ## The Algorithm
 
-The algorithm utilizes imagenet in order to classify different images of trash or sea creatures and python scripts such as train.py, onnx_validate.py, and onnx_export.py to recreate and test the model on different devices. When training the model using the command " ", the nano learns how to differentiate the various trash from sea creatures by searching for similarities in each respective class. There are a total of 7 classes: cardboard, glass, paper, plastic, metal, trash and sea creature. The longer the training lasts, the more accurate the model will become. 
+The algorithm utilizes imagenet in order to classify different images of trash or sea creatures and python scripts such as train.py, onnx_validate.py, and onnx_export.py to recreate and test the model on different devices. When training the model, the nano learns how to differentiate the various trash from sea creatures by searching for similarities in each respective class. There are a total of 7 classes: cardboard, glass, paper, plastic, metal, trash and sea creature. The longer the training lasts, the more accurate the model will become. 
 
 
 ## Running this project
@@ -16,7 +16,7 @@ The algorithm utilizes imagenet in order to classify different images of trash o
 1. Make sure you are in the directory "jetson-inference/python/training/classification/data"
 2. Access the dataset:
 ```
-wget 
+wget https://download1588.mediafire.com/tajjdqm5vqrg/blpxey4slvr9ekg/finalproject.zip
 unzip latest.zip 
 ```
 3. cd to jetson/inference and run 
@@ -43,7 +43,7 @@ DATASET=data/finalproject
 ![alt text](https://h5at2e2cs73cnhgg3ocux6bl-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/FKNMS-MoonJelly-DryTortugas-KatyDancaGalli-scaled.jpg)
 ```
 cd jetson-inference/python/training/classification/data/final_project/test
-wget https://download1321.mediafire.com/74f5rchjpulg/kv9n52gox1uymtw/.jpg
+wget https://download846.mediafire.com/ykaxgzz8sd6g/geei1odgy6tusrh/jellyfishtest.jpg
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/jellyfishtest.jpg jellyfishtest.jpg
 
 ```
