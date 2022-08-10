@@ -52,4 +52,4 @@ After using the scp command to open the image in a terminal outside of the nano,
 
 
 
-[View a video explanation here](video link)
+View video explanation here: https://youtu.be/OKOdAIFihXY
