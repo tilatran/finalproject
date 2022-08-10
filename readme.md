@@ -40,11 +40,11 @@ NET=models/finalproject
 DATASET=data/finalproject
 ```
 6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here: 
-![alt text](https://assets.weforum.org/article/image/large_fEWNdIY79A8273x3YbqHbs3MI0u7g7prw6-WbPyjv2w.jpg)
+![alt text](https://h5at2e2cs73cnhgg3ocux6bl-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/FKNMS-MoonJelly-DryTortugas-KatyDancaGalli-scaled.jpg)
 ```
 cd jetson-inference/python/training/classification/data/final_project/test
-wget https://download1321.mediafire.com/74f5rchjpulg/kv9n52gox1uymtw/testplastic.jpg
-imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/testplastic.jpg plastic.jpg
+wget https://download1321.mediafire.com/74f5rchjpulg/kv9n52gox1uymtw/.jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/jellyfishtest.jpg jellyfishtest.jpg
 
 ```
 After using the scp command to open the image in a terminal outside of the nano, we can see that it has been identified:
