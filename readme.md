@@ -40,7 +40,7 @@ NET=models/finalproject
 DATASET=data/finalproject
 ```
 6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here: 
-![alt text](https://www.greenbiz.com/sites/default/files/styles/og_image_1200x630/public/images/articles/featured/plasticbagoceandamseasstock.png?itok=lKtpNdhW)
+![alt text](https://assets.weforum.org/article/image/large_fEWNdIY79A8273x3YbqHbs3MI0u7g7prw6-WbPyjv2w.jpg)
 ```
 cd jetson-inference/python/training/classification/data/final_project/test
 wget https://download1321.mediafire.com/74f5rchjpulg/kv9n52gox1uymtw/testplastic.jpg
