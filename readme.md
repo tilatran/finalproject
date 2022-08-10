@@ -11,7 +11,7 @@ The algorithm utilizes imagenet in order to classify different images of trash o
 
 ## Running this project
 
-### You will need a Jetson Nano Development Kit, with the nano connected to the computer and internet as well as Resnet18 downloaded. The dataset can be accessed with this link: 
+### You will need a Jetson Nano Development Kit, with the nano connected to the computer and internet as well as Resnet18 downloaded. The dataset can be accessed with this link: https://download1588.mediafire.com/tajjdqm5vqrg/blpxey4slvr9ekg/finalproject.zip
 
 1. Make sure you are in the directory "jetson-inference/python/training/classification/data"
 2. Access the dataset:
