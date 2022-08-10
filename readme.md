@@ -28,7 +28,7 @@ to get the docker container.
 4. Train the nano. The longer it is left to run, the more accurate the results. About 15-20 minutes should suffice. 
 ```
 cd jetson-inference/python/training/classification
-python3 train.py --model-dir=models/final_project data/final_project
+python3 train.py --model-dir=models/finalproject data/finalproject
 
 ```
 5. Export the model with onnx and use ctrl + D to exit the docker and set the variables
@@ -36,8 +36,8 @@ python3 train.py --model-dir=models/final_project data/final_project
 python3 onnx_export.py --model-dir=models/final_project
 #Ctrl + D
 cd jetson-inference/python/training/classification
-NET=models/final_project
-DATASET=data/final_project
+NET=models/finalproject
+DATASET=data/finalproject
 ```
 6. Now, whatever photo you upload from the ocean can be classified using this string of code. I will use an example photo here: 
 ![alt text](https://www.greenbiz.com/sites/default/files/styles/og_image_1200x630/public/images/articles/featured/plasticbagoceandamseasstock.png?itok=lKtpNdhW)
