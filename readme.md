@@ -48,6 +48,7 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 
 ```
 After using the scp command to open the image in a terminal outside of the nano, we can see that it has been identified:
+![alt text](https://download1083.mediafire.com/bcm3o6sd2wig/3fd7sixolxvxqwc/jellyfish.png)
 
 
 
